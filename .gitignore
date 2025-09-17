@@ -1,0 +1,44 @@
+# Entornos virtuales de Python
+venv/
+.env/
+
+# Archivos de configuración de usuario
+*.env
+*.tfvars
+
+# Archivos de Terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.*
+crash.log
+
+# Archivos de sistema
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.DS_Store
+Thumbs.db
+
+# Archivos temporales y de editor
+*.swp
+*.swo
+*.bak
+*.tmp
+.idea/
+.vscode/
+
+# Archivos de salida
+*.out
+*.exe
+*.dll
+*.so
+
+# Archivos de credenciales
+*.pem
+*.key
+*.crt
+
+# Otros
+node_modules/
