@@ -367,6 +367,6 @@ daily_recurrence_time = var.auto_shutdown_time
 ## After (fixed):
 daily_recurrence_time = replace(var.auto_shutdown_time, ":", "")
 
-![successful_deploy](./img/Screenshot_20250918_215614.png)
+![successful_deploy](./img/Screenshot_20250918_221637.png)
 
 ![successful_deploy](./img/Screenshot_20250918_215411.png)
